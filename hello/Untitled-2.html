@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="./Untitled-1.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		window.onload = function(){
+			var prev = document.getElementById("prev");
+			var next = document.getElementById("next");
+			
+			var img=document.getElementsByTagName("img")[0];
+			
+			var arr=["1.jpg","2.jpg","3.jpg","4.png"];
+			var index=0;
+			
+			var info=document.getElementById("info")
+			info.innerHTML = "一共" + arr.length +"张图片，当前第" + (index+1) + "张"
+			prev.onclick = function(){
+				//alert("prev")
+				//console(123)
+				index--;
+				if(index<0){index=arr.length-1}
+				img.src=arr[index];
+				info.innerHTML = "一共" + arr.length +"张图片，当前第" + (index+1) + "张"
+			}
+			next.onclick = function(){
+				
+				index++;
+				if(index>arr.length-1){index=0}
+				img.src=arr[index]
+				info.innerHTML = "一共" + arr.length +"张图片，当前第" + (index+1) + "张"
+				//alert("next")
+				//img.src = "2.jpg";
+			}
+			
+			
+		}
+	</script>
+</head>
+
+<body>
+	<div id="picture">
+		<p id="info"></p>
+			<img src="1.jpg" alt="draw" />
+			<button id="prev">上一张</button>
+			<button id="next">下一张</button>
+	</div>
+	
+	
+	
+	
+	
+</body>
+</html>
