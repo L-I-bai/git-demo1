@@ -1,10 +1,10 @@
 i   00000
 hello git
 hello git  asdc
-hello git
+hello git   22222
 hello git
 szc
-
+2222
 dsz
 :wq
 
