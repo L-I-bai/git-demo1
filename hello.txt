@@ -3,7 +3,7 @@ hello git
 hello git  asdc
 hello git   22222
 hello git master
-szc
+szc ig
 2222
 dsz
 :wq vode branch
