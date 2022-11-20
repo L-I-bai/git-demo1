@@ -1,6 +1,10 @@
-i
+i   00000
+hello git
+hello git  asdc
 hello git
 hello git
-hello git
-hello git
+szc
+
+dsz
+:wq
 
