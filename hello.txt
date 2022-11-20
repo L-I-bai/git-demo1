@@ -2,7 +2,7 @@ i   00000
 hello git
 hello git  asdc
 hello git   22222
-hello git
+hello git master
 szc
 2222
 dsz
